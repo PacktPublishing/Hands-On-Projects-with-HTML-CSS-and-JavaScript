@@ -1,0 +1,75 @@
+
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom, lightgreen, lightblue);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    width: 90%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-weight: 400;
+}
+
+.input{
+    padding: 20px 10px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+.errorMessage{
+    color: red;
+    font-weight: 600;
+    margin: 10px;
+    display: none;
+}
+
+.btn{
+    text-transform: uppercase;
+    width: 250px;
+    height: 45px;
+    margin: 20px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.btn:hover{
+    color: aliceblue;
+    background-color: green;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out;
+}
+.gallery img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.gallery{
+    display: none;
+}
